@@ -10,7 +10,11 @@
 <body>
     <div class="auth-wrapper">
         <div class="card">
-            <h2>Iniciar Sesión</h2>
+            <div class="TituloLogin">   
+                <img src="{{ asset('img/PusheenZzz-removebg-preview.png') }}" alt="logo" style="width:60px; height:60px;">
+                 <h2>Iniciar Sesión</h2>
+                 <img src="{{ asset('img/PusheenZzz-removebg-preview.png') }}" alt="logo" style="width:60px; height:60px;">
+            </div>
 
             @if(session('mensaje'))
                 <div class="alert-success">
